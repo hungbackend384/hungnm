@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    width: 100%;
+}
+.iclen{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: medium;
+    opacity: 90%;
+    color: #182E59;
+    padding: 10px 0 0 0 ;
+}
+.logo img{
+    display: flex;
+    margin: auto;
+    width: 25%;
+    padding: 20px;
+}
+nav{
+    width: 100%;
+    position: relative;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    padding: 0 36px;
+    border-bottom: 2px;
+}
+nav ul li a{
+    font-size: medium;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+nav ul ul{
+    background-color: white;
+    display: none;
+    list-style: none;
+    line-height: 25px;
+    position: absolute;
+    box-shadow: 0 0 1px gray;
+    left: 0%;
+}
+nav ul li ul li{
+    width: 250px;
+}
+nav ul ul li{
+    text-align: left;
+}
+nav ul ul a{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    font-size: medium;
+}
+nav ul ul a:hover{
+    text-decoration: underline;
+    color: black;
+    opacity: 50%;
+}
+nav ul li:hover ul{
+    display: block;
+}
+.banner img{
+    width: 100%;
+    height: 600px;
+    padding: 10px 0 0 0 ;
+}
+main{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+main h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 30;
+}
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.product-selection{
+    margin: 10px;
+    width: 23%;
+    box-sizing: border-box;
+    position: relative;
+    transition: tranform 1s ease;
+}
+.product-selection:hover{
+    transform: scale(1,1.1);
+}
+.product-selection img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.product-selection .ten{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    text-decoration: underline;
+    position: absolute; /* Add absolute positioning */
+    top: 50%; /* Position from the top */
+    left: 50%; /* Position from the left */
+    transform: translate(-50%, -50%); /* Center the text */
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color with transparency */
+    padding: 10px;
+    width: 90%; /* Adjust width as needed */
+    top: 90%;
+}
+hr{
+    margin: 10px;
+}
+.pro{
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.secon{
+    margin: 20px;
+    width: 25%;
+}
+.secon img{
+    width: 100%;
+}
+.secon .thuonghieu{
+    text-align: center;
+    font-size: medium;
+    color: black;
+}
+.efect{
+    width: 100%;
+    display: flex;
+}
+.eline{
+    width: 33%;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 1px gray;
+}
+.eline img{
+    width: 100%;
+    border-radius: 20px 20px 0 0 ;
+}
+.eline .duan{
+    text-align: center;
+    font-size: medium;
+    color: black;
+    height: 50px;
+    top: 50%;
+    padding: 12px;
+}
+.eline .duan p{
+    margin: auto;
+}
+.bt{
+    margin: auto;
+    text-align: center;
+}
+.bt button{
+    color: black;
+    background-color: white;
+    margin: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+.bt button p{
+    margin: 10px;
+}
+bi-arrow-right-short{
+    display: flex;
+    position: relative;
+    margin: auto;
+    top: 50%;
+}
+.livitonteam{
+    text-align: center;
+    color: black;
+    font-size: small;
+    font-variant: normal;
+    display: flex;
+}
+.livitonteam p{
+    margin: auto;
+}
+.dn{
+    width: 100%;
+    display: flex;
+}
+.thanhvien{
+    width: 33%;
+    border-radius: 10px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.thanhvien img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.thanhvien .slogan{
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+}
+.knowledge{
+    display: flex;
+    justify-content: space-between;
+}
+.knowledge p{
+    top: 100%;
+}
+.newpost{
+    background-color: #182E59;
+    color: white;
+    width: 90px;
+    margin: 10px;
+}
+.hang{
+    display: flex;
+    margin: 10px;
+    border: 1px solid gray opa;
+    height: 380px;
+}
+.anh1 img{
+    width: 88%;
+}
+.hang .chu{
+    margin: 10px;
+    font-size: medium;
+}
+.chu p{
+    margin-top: 20px;
+}
+.emos{
+    width: 100%;
+    display: flex;
+}
+.esv{
+    width: 33%;
+    margin: 10px;
+    box-shadow: 0 0 1px gray;
+    box-sizing: border-box;
+    position: relative;
+}
+.esv img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.esv .kienthuc2{
+    color: white;
+    font-size: medium;
+    text-decoration: underline;
+    position: absolute; /* Add absolute positioning */
+    top: 50%; /* Position from the top */
+    left: 50%; /* Position from the left */
+    transform: translate(-50%, -50%); /* Center the text */
+    padding: 10px;
+    width: 100%; /* Adjust width as needed */
+}
+.kienthuc2 p{
+    margin-left: 13%;
+    font-size: small;
+}
+.kienthuc2 h3{
+    text-align: left;
+    margin-left: 11%;
+}
+.kienthuc2 svg{
+    margin-left: 13%;
+}
+.list{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+.image{
+    width: 40%;
+    height: auto;
+    margin-left: 10px;
+}
+.image img{
+    width: 100%;
+}
+.sing-in{
+    width: 60%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sing-in h3{
+    display: flex;
+    margin: auto;
+}
+.sing-in .list-tour{
+    width: 80%;
+    min-height: 30px;
+    margin: auto;
+}
+.sing-in button{
+    margin: auto;
+    width: 40%;
+    height: 40px;
+    background-color: #182E59;
+    color: white;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #182E59;
+    color: white;
+    display: flex;
+}
+.recruit{
+    width: 45%;
+    margin-left: 20px;
+}
+.recruit img{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+.recruit p{
+    margin-top: 5px ;
+}
+.category{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.category .vechungtoi h4{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+.category .vechungtoi p{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.vechungtoi hr{
+    margin-left: 0;
+    width: 200px;
+}
+.Sanpham hr{
+    margin-left: 0;
+    width: 200px;
+}
+.category .Sanpham{
+    padding-left: 50px;
+}
+.category .Sanpham h4{
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.category .Sanpham p{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.new{
+    line-height: 30px;
+    background-color: #010202;
+    width: 100%;
+    color: white;
+    font-size: small;
+}
+.new p{
+    padding-left: 50px;
+}
+.facebook a{
+    width: 100%;
+}
+/* điện thoại đứng */
+@media screen and(min-width: 240px) {
+    .iclen {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px; /* Điều chỉnh khoảng cách giữa các phần tử */
+    }
+    .logo img{
+        width: 50%;
+        height: auto;
+        display: flex;
+        margin-left: 0;
+    }
+      
+
+}
+/* macbook điện thoại nằm ngang */
+@media screen and (min-width: 768px) {
+    
+}
+/* destop máy tính */
+@media screen and (min-width: 1024px) {
+    
+}
+ /* menu */
+ .menu{
+    background-color: #010202;
+    color: #fff;
+    padding: 7px;
+    font-size: 22px;
+ }
+ /* slide */
+ .slide{
+    position: relative;
+    text-align: center;
+}
+.bi-caret-left{
+    position: absolute;
+    left:0px;
+    top: 45%;
+    font-size: 5rem;
+    color: #fff;
+}
+.bi-caret-right{
+    position: absolute;
+    right: 0px;
+    top: 45%;
+    font-size:5rem;
+    color: white !important;
+}
+.slide .list{
+position: absolute;
+bottom: 5%;
+font-size: 3rem;
+text-align: center;
+left: calc(50% - 40px);
+}
